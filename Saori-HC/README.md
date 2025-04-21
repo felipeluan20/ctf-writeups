@@ -65,9 +65,6 @@
 ![Descrição da imagem](./images/print17.png)
 
 
-```md
----
-
-**Autor:** [felipeluan20](https://github.com/felipeluan20)  
+**Autor:** [malcriado](https://github.com/felipeluan20)  
 **Plataforma:** CTF Write-ups  
 **Missão:** Compreender, explorar e documentar.
