@@ -1,22 +1,26 @@
-# 🏴 CTF Write-ups por Categoria
+# 🏴 CTF Write-ups
 
-Repositório com write-ups organizados por tipo de desafio encontrado em CTFs. Cada pasta representa uma categoria comum nos jogos.
+Repositório com write-ups de desafios CTF resolvidos, organizados por nome do desafio e plataforma.
 
-## Categorias
+Cada pasta representa **um desafio resolvido**, contendo:
+- Um arquivo `README.md` com o write-up completo (texto, prints e explicações)
+- Uma pasta `images/` com os screenshots usados no write-up
 
-- 🔐 [Crypto](./crypto) — Criptografia, análise de cifras, RSA, etc.
-- 🐚 [Pwn](./pwn) — Exploração de binários, buffer overflows, format strings...
-- 🌐 [Web](./web) — Injeção SQL, XSS, SSTI, autenticações quebradas.
-- 🔍 [Reversing](./reversing) — Engenharia reversa com Ghidra, IDA, strings...
-- 🧪 [Forensics](./forensics) — Análise de arquivos, PCAPs, dumps de memória.
-- 🧩 [Misc](./misc) — Desafios diversos como lógica, regex, codificações.
+## Plataformas
+
+- 🏫 [HackingClub](https://hackingclub.cc/)
+- 🧠 [PicoCTF](https://play.picoctf.org/)
+- 🏴‍☠️ [Hack The Box](https://www.hackthebox.com/)
+- 🧪 [TryHackMe](https://tryhackme.com/)
+
 
 ## Como contribuir
 
-1. Clone o repositório
-2. Adicione seu write-up em `.md` na categoria apropriada
-3. Envie um Pull Request ✨
+1. Faça um fork do repositório
+2. Adicione seu write-up no padrão acima
+3. Faça um Pull Request ✨
 
 ## License
 
-MIT © malcriado
+MIT © felipeluan20
+
