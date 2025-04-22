@@ -166,9 +166,9 @@ bash -p
 ![Descrição da imagem](./images/34.png)
 
 ## Agora podemos acessar o diretório root do host principal e capturar nossa última flag.
-![Descrição da imagem](./images/34.png)
+![Descrição da imagem](./images/35.png)
 
 **Autor:** [felipeluan20](https://github.com/felipeluan20)  
 **Plataforma:** CTF Write-ups  
 **Missão:** Compreender, explorar e documentar.
-
+![Descrição da imagem](./images/36.png)

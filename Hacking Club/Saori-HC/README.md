@@ -68,3 +68,5 @@
 **Autor:** [felipeluan20](https://github.com/felipeluan20)  
 **Plataforma:** CTF Write-ups  
 **Missão:** Compreender, explorar e documentar.
+![Descrição da imagem](./images/image.png)
+

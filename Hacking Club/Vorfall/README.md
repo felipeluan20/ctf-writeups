@@ -162,5 +162,7 @@ cat /root/root.txt
 ![Descrição da imagem](./images/25.png)
 
 ### Fim! Nesse write-up, gostaria de agradecer ao tris0n, pois perdi meus prints e utilizei os dele, obrigado por compartilhar os mesmos! 
-
+**Autor:** [felipeluan20](https://github.com/felipeluan20)  
+**Plataforma:** CTF Write-ups  
+**Missão:** Compreender, explorar e documentar.
 ![Descrição da imagem](./images/26.png)
